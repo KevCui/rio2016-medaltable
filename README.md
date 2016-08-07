@@ -27,12 +27,10 @@ optional arguments:
                         sort results by number of Gold, Silver, Bronze or
                         Total medals. Default: sort by Total
   -d, --debug           active debug log
- ```
+```
 
 ### Example
-* Show medal table sorted by **Total** medals:
-```./Rio2016MedalTable.py```
-* Show medal table sorted by **Gold** medals:
-```./Rio2016MedalTable.py -s Gold```
+* Show medal table sorted by **Total** medals: ```./Rio2016MedalTable.py```
+* Show medal table sorted by **Gold** medals: ```./Rio2016MedalTable.py -s Gold```
 
 ![Alt text](https://github.com/KrazyCavin/Rio2016MedalTable/blob/master/MedalTable_Screenshot.png "Medal Table Screenshot")
