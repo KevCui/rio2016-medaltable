@@ -71,7 +71,7 @@ for data in soup.find_all('tr', class_='table-medal-countries__link-table'):
     row.append(tmpRes)
 
 # Sort row list by sortby value first, then prio Gold > Silver > Bronze
-sortedrow = sorted(row, key=lambda k: (k[sortby], k['Gold'], k['Silver'], k['Bronze']), reverse=True)
+sortedrow = sorted(row, key=lambda k: (int(k[sortby]), int(k['Gold']), int(k['Silver']), int(k['Bronze'])), reverse=True)
 logging.debug(sortedrow)
 
 # Construct printTableBody
