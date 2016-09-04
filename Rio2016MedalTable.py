@@ -31,11 +31,10 @@ args = parser.parse_args()
 logfile = 'Rio2016MedalTable.log' if args.debug == True else None
 loglevel = logging.DEBUG if logfile is not None else None
 logging.basicConfig(format='%(asctime)s [%(threadName)16s][%(module)14s][%(levelname)8s] %(message)s', filename=logfile, level=loglevel)
-log = logging.getLogger()
 
 # Get sortby value if it exits
 sortby = "Total" if args.sortby is None else args.sortby
-log.debug('sortby: ' + sortby)
+logging.debug('sortby: ' + sortby)
 
 # Define variable
 #   url: official url for rio2016 medal table
