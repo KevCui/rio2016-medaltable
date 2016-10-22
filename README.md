@@ -1,10 +1,10 @@
 ---
-title: Rio2016MedalTable
-description: show Rio2016 Olympic Medal Table in terminal
-author: KrazyCevin
-tags: CLI, python, script
-created:  07 Aug 2016
-modified: 07 Aug 2016
+Title: Rio2016MedalTable
+Description: show Rio2016 Olympic Medal Table in terminal
+Author: KrazyCavin
+Tags: CLI, python, script
+Created:  07 Aug 2016
+Modified: 07 Aug 2016
 ---
 
 Rio2016MedalTable
